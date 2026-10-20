@@ -8,5 +8,31 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: blue;
+    background-color: gray;
+}
+
+#tabla {
+    text-align: center;
+    align-items: center;
+    width: 350px;
+    border-collapse: collapse;
+    border: 1px solid #988bb6;
+    
+}
+th {
+    background-color: #975c5c;
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #030303;
+}
+td {
+    padding: 8px;
+    border: 1px solid black;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid #ccc;
 }
