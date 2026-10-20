@@ -5,6 +5,7 @@ const tablaContainer = document.getElementById("contenedor");
 boton.addEventListener("click", () => {
     if (tablaContainer.style.display === "none") {
         tablaContainer.style.display = "block";
+        boton.disabled = true;
     } else {
         tablaContainer.style.display = "none";
     }
@@ -12,6 +13,7 @@ boton.addEventListener("click", () => {
 botonOcultar.addEventListener("click",() => {
     if (tablaContainer.style.display === "block"){
         tablaContainer.style.display = "none";
+        boton.disabled = false;
     } else {
         tablaContainer.style.display = "block";
     }
