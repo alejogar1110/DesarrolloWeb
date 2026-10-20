@@ -1,6 +1,6 @@
 const boton = document.getElementById("boton_1");
 const botonOcultar = document.getElementById("boton_2");
-const tablaContainer = document.getElementById("tabla");
+const tablaContainer = document.getElementById("contenedor");
 
 boton.addEventListener("click", () => {
     if (tablaContainer.style.display === "none") {

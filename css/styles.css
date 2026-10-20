@@ -1,6 +1,6 @@
 h1 {
+    text-align: center;
     font-size: 2em;
-    background-color: black;
     color: white;
 }
 
@@ -8,26 +8,28 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: gray;
+    background-color:rgba(48, 48, 209, 0.877);
 }
 
-#tabla {
+#contenedor {
     text-align: center;
     align-items: center;
-    width: 350px;
+    width: 30%;
     border-collapse: collapse;
     border: 1px solid #988bb6;
-    
+    margin: 0px auto;
 }
 th {
     background-color: #975c5c;
     padding: 8px;
-    text-align: left;
+    text-align: center;
     border-bottom: 1px solid #030303;
+    width:30%;
 }
 td {
     padding: 8px;
     border: 1px solid black;
+    width:30%;
 }
 
 footer {
@@ -35,4 +37,24 @@ footer {
     padding: 10px;
     text-align: center;
     border-top: 1px solid #ccc;
+}
+
+#contenedor_boton_1{
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+
+}
+#boton_1{
+    background-color: #4CAF50;
+    color: white;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+#boton_2{
+    background-color: #f44336;
+    color: white;
+    border: 2px solid black;
+    border-radius: 4px;
 }
